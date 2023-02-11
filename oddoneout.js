@@ -1,9 +1,9 @@
 function oddOneOut(arrOfInts){
     for (const num of arrOfInts) {
         if (num % 2 !== 0) {
-            console.log(num);
+            return num;
         }  else  {
-            console.log(-1);
+            return -1;
         }
     }
 }

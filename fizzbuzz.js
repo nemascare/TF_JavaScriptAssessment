@@ -5,7 +5,7 @@ function fizzBuzz(start, end, skip){
             result.push(i);
         }
     }
-    console.log(result)
+    return result;
 }
 
 // DON'T EDIT THE LINE BELOW THIS COMMENT

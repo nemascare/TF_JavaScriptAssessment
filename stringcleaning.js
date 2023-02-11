@@ -9,7 +9,7 @@ function strClean(arrOfStrs) {
         str = str.replace(/ /g, '_');
         cleanedStrings.push(str);
     }
-    console.log(cleanedStrings);
+    return cleanedStrings;
 }
 
 
